@@ -1,0 +1,30 @@
+.imageAnnonce
+{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    box-shadow: #666666 2px 2px 2px;
+}
+.formu
+{
+    margin-left: 20px;
+}
+.well
+{
+    clear: both;
+    
+}
+.fos_user_registration_register
+{
+    font-size: 17px;
+    margin-top: 40px;
+    
+}
+.fos_user_registration_register label
+{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+

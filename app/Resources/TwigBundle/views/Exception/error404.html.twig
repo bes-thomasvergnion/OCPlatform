@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>An Error Occurred: {{ status_text }}</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <style>
+        .error
+        {
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            margin-top: 100px;
+            padding: 20px;
+            border-radius: 1%;
+            box-shadow: 10px 10px 5px #464646;
+            background-color: #EEEEEE;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="error">
+        <h1>Oops! An Error Occurred</h1>
+        <h2>The server returned a "{{ status_code }} {{ status_text }}".</h2>
+
+        <div>
+          <p>Veuillez nous excusez mais il semble qu'il y a un problème de connexion.</p>
+          <p>Nous allons régler le problème au plus vite.</p>
+          <p>Merci de votre compréhension.</p>
+        </div>
+    </div>
+  </body>
+</html>
